@@ -2,13 +2,14 @@
 
 body{
     width:100%;
+    display:flex;
+    justify-content: center;
     background-color: #232D3B;
     color: aliceblue;
 }
 
 .wrapper{
-    max-width:1000px;
-    margin:0 auto;
+    
 }
 
 img{
