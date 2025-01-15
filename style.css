@@ -1,47 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital@0;1&display=swap');
 
 body{
-    width:100%;
-    display:flex;
-    justify-content: center;
+    width: 100%;
     background-color: #232D3B;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Open Sans", serif;
 }
 
 .wrapper{
-    
+   max-width: 1000px;
+   width: 90%;
+   margin: 0 auto;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+h1{
+    font-size: 2,5em;
+    text-align: center;
+}
+
+h1 span{
+    color: rgb(0, 0, 255);
 }
 
 img{
     border-radius: 15px;
-    min-width: 300px;
-    max-width: 1000px;
-    width: 100%;
-}
 
-h1,h2{
-        font-family: "Open Sans", serif;
-        font-weight: 700;
-          "wdth" 100;
-          font-size: clamp(1.25rem, 0.8971rem + 1.7647vw, 2rem);
-}
-
-p{
-    font-family: "Montserrat", serif;
-    font-weight: 400;
-    font-size: clamp(1rem, 0.9412rem + 0.2941vw, 1.125rem);
-    line-height: 1.4em;
-}
-
-.color-span{
-    color: #0044ff;
-    
-}
-
-
-.gallery-h{
-    text-align: center;
-    font-size: clamp(2rem, 1.4706rem + 2.6471vw, 3.125rem);
 }
 
 .img-gallery{
@@ -51,7 +44,7 @@ p{
 }
 
 .img-gallery img{
-   height: 100%;
+   width: 100%;
     object-fit: cover;
 }
 
