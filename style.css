@@ -28,8 +28,9 @@ h1{
     text-align: center;
 }
 
-h1 span{
-    color: rgb(0, 0, 255);
+.color-span{
+   color: rgb(0, 0, 255);
+    font-weight: inherit;
 }
 
 .img-gallery{
