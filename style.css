@@ -11,6 +11,11 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Open Sans", serif;
 }
 
+img{
+    width:100%;
+    height:auto;
+}
+
 .wrapper{
    max-width: 1000px;
    margin: 0 auto;
