@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital@0;1&display=swap');
 
 body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-color: #232D3B;
     color: rgb(255, 255, 255);
     font-family: "Montserrat", serif;
@@ -10,17 +14,24 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: "Open Sans", serif;
 }
+
+image{
+    width: 100%;
+    height: auto;
 }
 
 .wrapper{
-   max-width: 1000px;
-   margin: 0 auto;
-   padding: 0 10px;
+max-width: 1000px;
+padding: 0 10px;
 }
 
 p{
     font-size: 16px;
     line-height: 1.5em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Open Sans", serif;
 }
 
 h1{
@@ -29,8 +40,13 @@ h1{
 }
 
 .color-span{
-   color: rgb(0, 0, 255);
-    font-weight: inherit;
+    color: rgb(0, 0, 255);
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
 }
 
 .img-gallery{
@@ -40,12 +56,17 @@ h1{
 }
 
 .img-gallery img{
-    width: 100%;
+   width: 100%;
     object-fit: cover;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
     .img-gallery{
         grid-template-columns: 1fr;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+        text-align: center;
+        line-height: 1.3em;
     }
 }
