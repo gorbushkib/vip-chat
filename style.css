@@ -32,21 +32,15 @@ h1 span{
     color: rgb(0, 0, 255);
 }
 
-img{
-    width:100%;
-    border-radius: 15px;
-
+.img{
+   width: 100%;
+    object-fit: cover;
 }
 
 .img-gallery{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-}
-
-.img-gallery img{
-   width: 100%;
-    object-fit: cover;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
