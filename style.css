@@ -59,6 +59,11 @@ img{
     object-fit: cover;
 }
 
+ul li{
+    margin-bootom:3%;
+    font-size:16px;
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
     .img-gallery{
         grid-template-columns: 1fr;
