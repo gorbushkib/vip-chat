@@ -59,7 +59,7 @@ img{
     object-fit: cover;
 }
 
-ul li{
+ul,ol li{
     margin-bootom:3%;
     font-size:16px;
 }
